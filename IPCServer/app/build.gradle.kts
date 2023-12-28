@@ -5,6 +5,7 @@ plugins {
 android {
     namespace = "com.sdcode.ipcserver"
     compileSdk = 34
+    buildFeatures.aidl = true
 
     defaultConfig {
         applicationId = "com.sdcode.ipcserver"
